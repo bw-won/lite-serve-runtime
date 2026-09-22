@@ -1,21 +1,24 @@
 # --- 操作系统文件 ---
-.DS_Store       # macOS
-Thumbs.db       # Windows
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
 
 # --- IDE 配置文件 ---
-.vscode/        # VS Code
-.idea/          # IntelliJ IDEA / PyCharm
-*.swp           # Vim
-
-# --- 依赖目录 (根据语言选择) ---
-node_modules/   # Node.js
-venv/           # Python
-target/         # Java Maven
-build/          # Gradle / Android
+# VS Code / IntelliJ IDEA / PyCharm / Vim
+.vscode/
+.idea/
+*.swp
 
 # --- 构建产物 ---
+build/
 dist/
 *.log
 
+# --- Python 缓存 ---
+__pycache__/
+*.pyc
+
 # --- 敏感信息 ---
-.env            # 环境变量文件（切勿提交密码或密钥）
+# 环境变量文件（切勿提交密码或密钥）
+.env
